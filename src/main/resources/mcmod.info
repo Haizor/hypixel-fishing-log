@@ -1,0 +1,16 @@
+[
+{
+  "modid": "hypixelfishinglog",
+  "name": "Hypixel Skyblock Fishing Log",
+  "description": "A mod to track your fishing catches in Hypixel Skyblock.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Haizor"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
