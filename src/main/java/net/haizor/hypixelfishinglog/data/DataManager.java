@@ -89,7 +89,7 @@ public class DataManager {
         public static Data initEmpty() {
             Data data = new Data();
             Map<String, SeaCreature.Data> map = new HashMap<String, SeaCreature.Data>();
-            for (SeaCreature c : SeaCreatures.seaCreatures.values()) {
+            for (SeaCreature c : SeaCreatures.seaCreatures) {
                 map.put(c.id, new SeaCreature.Data());
             }
             data.creatures = map;

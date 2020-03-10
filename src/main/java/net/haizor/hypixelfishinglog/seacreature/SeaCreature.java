@@ -1,7 +1,9 @@
 package net.haizor.hypixelfishinglog.seacreature;
 
 import net.haizor.hypixelfishinglog.data.Drop;
+import net.minecraft.client.resources.I18n;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.StringTranslate;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -9,17 +11,25 @@ import java.util.Map;
 
 public class SeaCreature {
     public String id;
-    public String chatMessage;
-    public String displayName;
     public Rarity rarity;
 
-    public SeaCreature(String id, String chatMessage, String displayName, Rarity rarity) {
+    public SeaCreature(String id, Rarity rarity) {
         this.id = id;
-        this.chatMessage = chatMessage;
-        this.displayName = displayName;
         this.rarity = rarity;
 
-        SeaCreatures.seaCreatures.put(chatMessage, this);
+        SeaCreatures.seaCreatures.add(this);
+    }
+
+    public String getDisplayName() {
+        return I18n.format(String.format("seacreature.%s.display_name", id.toLowerCase()));
+    }
+
+    public String getCatchText() {
+        return I18n.format(String.format("seacreature.%s.catch_text", id.toLowerCase()));
+    }
+
+    public String getMobName() {
+        return I18n.format(String.format("seacreature.%s.mob_name", id.toLowerCase()));
     }
 
     public static class Data {

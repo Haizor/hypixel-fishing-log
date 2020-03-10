@@ -1,2 +1,80 @@
 key.open_sea_creature_log=Open Sea Creature Log
 key.categories.sea_creatures=Sea Creature Log
+
+gui.seacreaturelog.page.good_catches.title="Good Catches"
+gui.seacreaturelog.page.great_catches.title="Great Catches"
+gui.seacreaturelog.page.settings.title="Settings"
+gui.seacreaturelog.page.table_of_contents.title="Table of Contents"
+
+seacreature.squid.display_name=Squid
+seacreature.squid.catch_text=You caught a lowly Squid.
+seacreature.squid.mob_name=Squid
+
+seacreature.sea_walker.display_name=Sea Walker
+seacreature.sea_walker.catch_text=From the depths of the waters, you've reeled in a Sea Walker.
+seacreature.sea_walker.mob_name=Sea Walker
+
+seacreature.night_squid.display_name=Night Squid
+seacreature.night_squid.catch_text=Pitch darkness reveals you've caught a Night Squid.
+seacreature.night_squid.mob_name=Night Squid
+
+seacreature.frozen_steve.display_name=Frozen Steve
+seacreature.frozen_steve.catch_text=Frozen Steve fell into the pond long ago, never to resurface...until now!
+seacreature.frozen_steve.mob_name=Frozen Steve
+
+seacreature.sea_guardian.display_name=Sea Guardian
+seacreature.sea_guardian.catch_text=You've stumbled upon a patrolling Sea Guardian.
+seacreature.sea_guardian.mob_name=Sea Guardian
+
+seacreature.frosty.display_name=Frosty
+seacreature.frosty.catch_text=It's a snowman! He looks harmless
+seacreature.frosty.mob_name=Frosty
+
+seacreature.sea_witch.display_name=Sea Witch
+seacreature.sea_witch.catch_text=It looks like you've disrupted the Sea Witch's brewing session. Watch out, she's furious!
+seacreature.sea_witch.mob_name=Sea Witch
+
+seacreature.sea_archer.display_name=Sea Archer
+seacreature.sea_archer.catch_text=From the depths of the waters, you've reeled in a Sea Archer.
+seacreature.sea_archer.mob_name=Sea Archer
+
+seacreature.monster_of_the_deep.display_name=Monster of the Deep
+seacreature.monster_of_the_deep.catch_text=The Monster of the Deep emerges from the dark depths...
+seacreature.monster_of_the_deep.mob_name=Rider of the Deep
+
+seacreature.grinch.display_name=Grinch
+seacreature.grinch.catch_text=The Grinch stole Jerry's Gifts...get them back!
+seacreature.grinch.mob_name=Grinch
+
+seacreature.catfish.display_name=Catfish
+seacreature.catfish.catch_text=You have found a Catfish, don't let it steal your catches!
+seacreature.catfish.mob_name=Catfish
+
+seacreature.carrot_king.display_name=Carrot King
+seacreature.carrot_king.catch_text=Is this even a fish? It's the Carrot King!
+seacreature.carrot_king.mob_name=Carrot King
+
+seacreature.sea_leech.display_name=Sea Leech
+seacreature.sea_leech.catch_text=Gross! A Sea Leech!
+seacreature.sea_leech.mob_name=Sea Leech
+
+seacreature.guardian_defender.display_name=Guardian Defender
+seacreature.guardian_defender.catch_text=You've discovered a Guardian Defender of the sea.
+seacreature.guardian_defender.mob_name=Guardian Defender
+
+seacreature.deep_sea_protector.display_name=Deep Sea Protector
+seacreature.deep_sea_protector.catch_text=You have awoken the Deep Sea Protector, prepare for a battle!
+seacreature.deep_sea_protector.mob_name=Deep Sea Protector
+
+seacreature.water_hydra.display_name=Water Hydra
+seacreature.water_hydra.catch_text=The Water Hydra has come to test your strength.
+seacreature.water_hydra.mob_name=Water Hydra
+
+seacreature.sea_emperor.display_name=Sea Emperor
+seacreature.sea_emperor.catch_text=The Sea Emperor arises from the depths...
+seacreature.sea_emperor.mob_name=The Emperor
+
+seacreature.yeti.display_name=Yeti
+seacreature.yeti.catch_text=What is this creature!?
+seacreature.yeti.mob_name=Yeti
+

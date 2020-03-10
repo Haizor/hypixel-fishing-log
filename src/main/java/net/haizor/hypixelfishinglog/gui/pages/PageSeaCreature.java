@@ -34,7 +34,7 @@ public class PageSeaCreature extends Page {
         super(parent);
         this.creature = creature;
         this.scData = DataManager.getDataStruct(creature);
-        this.title = creature.displayName;
+        this.title = creature.getDisplayName();
         this.titleColor = Helper.colorFromRarity(creature.rarity);
     }
 

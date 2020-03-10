@@ -16,6 +16,9 @@ import java.util.List;
 import java.util.Map;
 
 public class PageTreasureCatches extends Page {
+    public static final String GOOD_CATCH_TITLE_KEY = "gui.seacreaturelog.page.good_catches.title";
+    public static final String GREAT_CATCH_TITLE_KEY = "gui.seacreaturelog.page.great_catches.title";
+
     public Map<String, Drop> catches;
 
     private static final int dropSpacingX = 32;

@@ -13,6 +13,7 @@ import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.client.renderer.entity.RenderItem;
+import net.minecraft.client.resources.I18n;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.MouseHelper;
 import net.minecraft.util.ResourceLocation;
@@ -81,8 +82,8 @@ public class GuiSeaCreatureLog extends GuiScreen {
         pages.add(new PageSeaCreature(this, SeaCreatures.WATER_HYDRA));
         pages.add(new PageSeaCreature(this, SeaCreatures.SEA_EMPEROR));
         pages.add(new PageSeaCreature(this, SeaCreatures.YETI));
-        pages.add(new PageTreasureCatches(this, DataManager.data.goodCatches, "Good Catches"));
-        pages.add(new PageTreasureCatches(this, DataManager.data.greatCatches, "Great Catches"));
+        pages.add(new PageTreasureCatches(this, DataManager.data.goodCatches, I18n.format(PageTreasureCatches.GOOD_CATCH_TITLE_KEY)));
+        pages.add(new PageTreasureCatches(this, DataManager.data.greatCatches, I18n.format(PageTreasureCatches.GREAT_CATCH_TITLE_KEY)));
         pages.add(new PageSettings(this));
 
         pages.add(0, new PageTableOfContents(this, pages));

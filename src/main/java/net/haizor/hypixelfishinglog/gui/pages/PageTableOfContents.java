@@ -2,12 +2,15 @@ package net.haizor.hypixelfishinglog.gui.pages;
 
 import net.haizor.hypixelfishinglog.gui.Button;
 import net.haizor.hypixelfishinglog.gui.GuiSeaCreatureLog;
+import net.minecraft.client.resources.I18n;
 import net.minecraft.util.EnumChatFormatting;
 import org.lwjgl.input.Mouse;
 
 import java.util.List;
 
 public class PageTableOfContents extends Page {
+    private static final String TITLE_KEY = "gui.seacreaturelog.page.table_of_contents.title";
+
     public int currYScroll;
     public int minYScroll = 0;
     public int displayCount = 10;
@@ -17,7 +20,7 @@ public class PageTableOfContents extends Page {
     public PageTableOfContents(GuiSeaCreatureLog parent, List<Page> pages) {
         super(parent);
 
-        title = "Table of Contents";
+        title = I18n.format(TITLE_KEY);
 
         for (int i = 0; i < pages.size(); i++) {
             Page currPage = pages.get(i);

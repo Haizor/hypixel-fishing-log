@@ -4,15 +4,18 @@ import net.haizor.hypixelfishinglog.data.DataManager;
 import net.haizor.hypixelfishinglog.gui.Button;
 import net.haizor.hypixelfishinglog.gui.GuiSeaCreatureLog;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.I18n;
 import org.lwjgl.input.Keyboard;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class PageSettings extends Page {
+    private static final String TITLE_KEY = "gui.seacreaturelog.page.settings.title";
+
     public PageSettings(GuiSeaCreatureLog parent) {
         super(parent);
-        this.title = "Settings";
+        this.title = I18n.format(TITLE_KEY);
         this.addButton(new WipeDataButton(parent, 42, 30));
     }
 
