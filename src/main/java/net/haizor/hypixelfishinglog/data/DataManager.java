@@ -1,6 +1,7 @@
 package net.haizor.hypixelfishinglog.data;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
 import net.haizor.hypixelfishinglog.seacreature.SeaCreature;
 import net.haizor.hypixelfishinglog.seacreature.SeaCreatures;
 import net.minecraft.item.ItemStack;
@@ -33,6 +34,8 @@ public class DataManager {
                 data = gson.fromJson(new FileReader(dataFile), Data.class);
             }
         } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JsonSyntaxException e) {
             e.printStackTrace();
         }
 
